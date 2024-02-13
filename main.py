@@ -4,7 +4,8 @@ import random
 def escolher_palavra():
   palavras = [
       "python", "programação", "jogo", "desenvolvimento", "aplicativo",
-      "openai", "inteligencia", "cachorro" ,"fam´lia","formiga","otorrinolaringologista"
+      "openai", "inteligencia", "cachorro" ,"famìlia","formiga","otorrinolaringologista",
+      "android","apartamento","constitução","padaria","dedo","pão","francês", "trem"
   ]
   return random.choice(palavras)
 
